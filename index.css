@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #0a0a0a;
+  color: #fff;
+}
+.luxury-card {
+  @apply bg-gradient-to-br from-gray-900 to-black border border-gray-800 rounded-2xl shadow-2xl hover:shadow-luxury-blue/20 transition-all duration-300;
+}
+.btn-primary {
+  @apply bg-luxury-blue hover:bg-blue-700 text-white px-6 py-3 rounded-xl font-medium transition-all;
+}
+.btn-outline {
+  @apply border border-luxury-lightblue text-luxury-lightblue hover:bg-luxury-lightblue/10 px-6 py-3 rounded-xl transition-all;
+}
